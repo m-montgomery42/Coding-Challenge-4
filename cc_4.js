@@ -56,3 +56,12 @@ for (let property in employee) {
 // Log each property and value to the console using a template literal
 console.log(`${property}: ${employee[property]}`);
 }
+
+// Task 6: For...Of Loop
+// Declare an array products with at least three product names
+let products = ["Laptop", "Smartphone", "Tablet"];
+// Use a for...of loop to display each product
+for (let product of products) {
+// Log each product name to the console using a template literal
+    console.log(`Product: ${product}`);
+}
