@@ -83,3 +83,13 @@ function calculateTax(amount, taxRate) {
 let tax = calculateTax(2000, 0.10);
 // Log the result to the console using a template literal
 console.log(`Tax: $${tax}`);
+
+// Task 9: Function Expressions
+// Declare a function expression applyDiscount that takes a price and discount percentage
+const applyDiscount = function(price, discountPercentage) {
+    // Return the discounted price
+    return price - (price * (discountPercentage / 100));
+};
+let discountedPrice = applyDiscount(2500, 15);
+// Log the result to the console using a template literal
+console.log(`Discounted price: $${discountedPrice}`);
