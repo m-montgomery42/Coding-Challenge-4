@@ -22,3 +22,14 @@ for (let i = 0; i < sales.length; i++) {
 }
 // Log the total sales to the console using a template literal
 console.log(`Total sales: $${totalSales}`);
+
+// Task 3: While Loop
+// Declare a variable stock with an initial value of 10
+let stock = 10;
+// Use a while loop to decrease stock until it reaches zero
+while (stock > 0) {
+    console.log(`Stock amount: ${stock}`);
+    stock--;
+}
+// Log each decrement to the console using a template literal
+console.log(`Stock amount: ${stock}`);
