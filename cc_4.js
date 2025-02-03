@@ -43,3 +43,16 @@ do {
     console.log(`Response count: ${responses}`);
     responses++;
 } while (responses < 3);
+
+// Task 5: For...In Loop
+// Declare an object employee with properties
+let employee = {
+    name: "John Doe",
+    position: "General Manager",
+    salary: 95000
+};
+// Use a for...in loop to iterate through the object properties
+for (let property in employee) {
+// Log each property and value to the console using a template literal
+console.log(`${property}: ${employee[property]}`);
+}
