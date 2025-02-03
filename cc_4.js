@@ -1,4 +1,4 @@
-// Task 1- If Statements
+// Task 1: If Statements
 // Declare a variable purchaseAmount with a value
 let purchaseAmount = 120;
 console.log(`Purchase Amount: $${purchaseAmount}`);
@@ -33,3 +33,13 @@ while (stock > 0) {
 }
 // Log each decrement to the console using a template literal
 console.log(`Stock amount: ${stock}`);
+
+// Task 4: Do... While Loop
+// Declare a variable responses with an initial value of zero
+let responses = 0;
+// Use a do...while loop to collect responses, simulating user input with responses++ until it reaches 3
+// Log each response count to the console using a template literal
+do {
+    console.log(`Response count: ${responses}`);
+    responses++;
+} while (responses < 3);
